@@ -3,7 +3,7 @@ var lossCounter = 0;
 var targetNumber = Math.floor(Math.random() * 101) + 19;
 $("#targetNumber").text(targetNumber);
 
-var counter = 0;
+
 
 var Cry1 = Math.floor(Math.random() * 11) + 1;
 var Cry2 = Math.floor(Math.random() * 11) + 1;
@@ -14,6 +14,8 @@ var Cry4 = Math.floor(Math.random() * 11) + 1;
 $("#winCounter").html(winCounter);
 $("#lossCounter").html(lossCounter);
 
+var counter = 0;
+$("#curScore").text(counter);
 
 function restartGame() {
 
